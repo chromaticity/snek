@@ -13,5 +13,5 @@ class MasterWindow:
         top_level_window.geometry("600x600")
         Label(top_level_window, text="Test Window").pack()
 
-        label = Label(self.master_window)
+        # infinite loop that keeps the application running... unless stated otherwise or closed.
         mainloop()
